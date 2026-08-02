@@ -1941,10 +1941,6 @@ animation-duration:18s;
 padding:40px 0;
 }
 
-.hero-text{
-max-width:600px;
-}
-
 .hero-text h1{
     font-family: "FONTSPRING DEMO - Museo Sans", sans-serif;
     font-weight: 600;
@@ -1996,7 +1992,7 @@ border-radius:80px;
 
 padding:22px 32px;
 
-width:fit-content;
+width:100%;
 
 box-shadow:
 0 3px 8px rgba(0,0,0,.08);
