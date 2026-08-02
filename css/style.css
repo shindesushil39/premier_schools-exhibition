@@ -505,6 +505,76 @@ height:auto;
   BUTTON
 ==============================*/
 
+.submit-btn{
+    position:relative;
+    width:220px;
+    height:60px;
+    border:2px solid #fff;
+    background:transparent;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    padding:0;
+    cursor:pointer;
+    overflow:hidden;
+    transition:.4s;
+}
+.submit-btn::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    width:0%;
+    background:#fff;
+    transition:width .45s ease;
+    z-index:0;
+}
+
+.submit-btn.active::before{
+    width:100%;
+}
+
+.submit-btn__icon,
+.submit-btn__text{
+    position:relative;
+    z-index:2;
+}
+
+.submit-btn__icon{
+    width:60px;
+    height:100%;
+    background:#fff;
+    color:#3d146b;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.submit-btn__text{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    letter-spacing:1px;
+    transition:.4s;
+}
+
+.submit-btn.active .submit-btn__text{
+    color:#3d146b;
+}
+
+.submit-btn.active .submit-btn__icon{
+    background:#fff;
+    color:#3d146b;
+}
+
+/* Hover */
+.submit-btn:hover{
+    transform:translateY(-2px);
+}
+
 .enquiry__button {
     margin-top: 20px;
     display: inline-flex;
@@ -2087,3 +2157,7 @@ margin: 0px 20px;
 
 padding:0px 20px;
 }
+
+
+
+
