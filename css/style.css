@@ -1744,7 +1744,7 @@ max-width:65%;
 }
 .enquiry{width: 100% !important;}
 .enquiry__container{width: 100% !important; max-width: 100%;}
-.enquiry__card{width: 100% !important;}
+.enquiry__card{width: 100% !important; margin-bottom:40px;}
 }
   .event-card {
     margin-top: 35px;
