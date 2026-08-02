@@ -1926,6 +1926,8 @@ animation-duration:18s;
 }
 .event-card{
     width: auto !important;
+  flex-direction: column;
+          margin-bottom: 20px;
 }
 .hero_container{
     padding: 40 20px;
