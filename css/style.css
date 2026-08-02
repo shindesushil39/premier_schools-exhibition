@@ -275,7 +275,7 @@ Hero section
     align-items:center;
     margin: 0px;
     gap: 20px;
-  padding-top: 0px !important;
+    padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
 
@@ -1935,9 +1935,7 @@ animation-duration:18s;
 .divider {
     height: 30px !important;
 }
-
-
-
+  }
 
 
 
