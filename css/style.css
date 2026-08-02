@@ -1729,12 +1729,6 @@ font-size:24px;
 max-width:65%;
 
 }
-
-.schools{
-
-padding:70px 0;
-
-}
 .hero_container {
     display: flex;
     align-items: baseline;
@@ -1766,6 +1760,10 @@ padding:70px 0;
   .dual-slider {
     width: 100%;
   }
+  .school-category{
+    padding:0px 0;
+  }
+  
 }
 
 /* ==========================
