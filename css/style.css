@@ -421,8 +421,8 @@ height:450px;
 
 .v-track img{
 
-width:170px;
-height:250px;
+width:100%;
+height:auto;
 
 }
 
@@ -1666,7 +1666,9 @@ height:2px;
 
 margin:20px 0;
 }
-
+.hero-content{
+width:100%;
+}
 
 .hero-text h1{
 
@@ -1735,15 +1737,15 @@ padding:70px 0;
 }
 .hero_container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin: 0px;
-    padding: 0px !important;
+    padding: 0px 20px !important;
     gap: 20px;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    align-content: space-between !important;
-    justify-content: space-evenly !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
+.enquiry{width: 100% !important;}
 .enquiry__container{width: 100% !important;}
 .enquiry__card{width: 100% !important;}
 }
