@@ -1749,6 +1749,23 @@ padding:70px 0;
 .enquiry__container{width: 100% !important; max-width: 100%;}
 .enquiry__card{width: 100% !important;}
 }
+  .event-card {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    background: #F7D09A;
+    border: 3px solid #E3B66F;
+    border-radius: 80px;
+    padding: 22px 32px;
+    width: 100%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .08);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+  .dual-slider {
+    width: 100%;
+  }
 
 }
 
