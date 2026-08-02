@@ -1746,7 +1746,7 @@ padding:70px 0;
     align-content: space-around;
 }
 .enquiry{width: 100% !important;}
-.enquiry__container{width: 100% !important; max-width:100% !important}
+.enquiry__container{width: 100% !important; max-width: 100%;}
 .enquiry__card{width: 100% !important;}
 }
 
