@@ -1739,7 +1739,7 @@ padding:70px 0;
     display: flex;
     align-items: baseline;
     margin: 0px;
-    padding: 30px 20px !important;
+    padding: 80px 20px !important;
     gap: 20px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1957,10 +1957,6 @@ animation-duration:18s;
 
 /*****hero left section*********/
 
-
-.hero-content{
-padding:40px 0;
-}
 
 .hero-text h1{
     font-family: "FONTSPRING DEMO - Museo Sans", sans-serif;
