@@ -7,6 +7,7 @@
      <script src="js/exhibition-slider.js" defer></script>
      <script src="js/school-category__slider.js" defer></script>
      <script src="js/hero_slider.js"defer></script>
+     <script src="js/submit-btn.js"defer></script>
     <script src="js/slider.js"defer></script>
     <script src="js/form.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -223,17 +224,10 @@
                         required
                     ></textarea>
                 </div>
-
-                <button class="enquiry__button" type="submit">
-                    <span class="enquiry__button-icon">
-                        ↗
-                    </span>
-
-                    <span class="enquiry__button-text">
-                        Submit
-                    </span>
+                <button class="submit-btn enquiry__button" id="submitBtn" type="submit">
+                        <span class="enquiry__button-icon submit-btn__icon">↗</span>
+                        <span class="submit-btn__text">SUBMIT</span>
                 </button>
-
             </form>
         </div>
     </div>
@@ -663,8 +657,8 @@
                 </span>
 
             </a>
-
         </div>
+        
         <!-- Right Image -->
         <div class="appointment__media">
 
@@ -870,6 +864,7 @@
 
 <!---Footer Section--->  
 <footer class="footer">
+    <div class="footer-space">
     <div class="container footer__container">
 
         <!-- Logo -->
@@ -976,6 +971,7 @@
 
         </section>
 
+    </div>
     </div>
     <!--copyright -->
     <div class="footer__bottom">
