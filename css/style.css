@@ -1778,8 +1778,11 @@ padding:40px 20px !important;
 .highlights {
     padding: 0px 0 10px 0;
 }
+  .site-header__logo-image {
+    top: 15%;
+    left: 10px;
 }
-
+}
 /* ==========================
    Mobile Responsive
 ========================== */
