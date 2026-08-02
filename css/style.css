@@ -1954,6 +1954,7 @@ animation-duration:18s;
 }
 .site-header__logo-image {
             top: 24%;
+  left:10px;
 }
 
 }
