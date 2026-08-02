@@ -1422,7 +1422,7 @@ RIGHT IMAGE
 .footer__logo{
 
     display:flex;
-    justify-content:center;
+    justify-content:start;
     align-items:flex-start;
 
 }
@@ -1557,7 +1557,9 @@ RIGHT IMAGE
 
 }
 
-
+.footer-space{
+    padding: 58px 0px 92px 0px;
+}
 
 
 /* ==========================
@@ -1766,6 +1768,16 @@ max-width:65%;
   .schools{
 padding:0 0;
   }
+  .container{
+
+padding:40px 20px !important;
+}
+.footer-space {
+    padding: 0px;
+}
+.highlights {
+    padding: 0px 0 10px 0;
+}
 }
 
 /* ==========================
@@ -1773,7 +1785,13 @@ padding:0 0;
 ========================== */
 
 @media (max-width:576px){
+.container{
 
+padding:40px 20px !important;
+}
+.footer-space {
+    padding: 0px;
+}
 .stats__container{
     width: 100%;
 }
@@ -2059,5 +2077,5 @@ margin: 0px 20px;
 
 .container{
 
-padding:30px 20px;
+padding:0px 20px;
 }
