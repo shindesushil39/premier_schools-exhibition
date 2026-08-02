@@ -1602,7 +1602,7 @@ flex-basis:calc(25% - 18px);
 ========================== */
 
 
-@media (max-width:992px){
+@media (max-width:1024px){
 
 .stats__container{
     width: 100%;
