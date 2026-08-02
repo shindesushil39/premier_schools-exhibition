@@ -966,7 +966,7 @@ transform:translateX(0);
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:20px;
-    max-height: 280px;
+    max-height: 350px;
 }
 
 .school-card{
