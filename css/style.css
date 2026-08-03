@@ -1641,8 +1641,9 @@ RIGHT IMAGE
 
 .highlight-card{
 .stats__container{
-width: 100%;
-flex-basis:calc(25% - 18px);
+    width: 100%;
+    flex: 0 0 calc(25% - 18px);
+
 }
 }
 
